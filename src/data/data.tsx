@@ -10,17 +10,10 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import portfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import portfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -153,102 +146,153 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'www.brandonjturner.com',
     description: 'Built with React, Next.js and TailwindCss',
     url: 'https://brandonjturner.com',
-    image: porfolioImage1,
+    image: portfolioImage1,
   },
   {
-    title: 'Project title 2',
+    title: 'Football Win Picker',
+    description: "Using free sports API's and MongoDB to produce football predictions based off the data.",
+    url: 'https://github.com/brandonjturner/project3',
+    image: portfolioImage2,
+  },
+  {
+    title: 'Project 2',
     description: 'Give a short description of your project here.',
     url: 'https://brandonjturner.com',
-    image: porfolioImage2,
+    image: portfolioImage3,
   },
   {
-    title: 'Project title 3',
+    title: 'Vanpool',
     description: 'Give a short description of your project here.',
     url: 'https://brandonjturner.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://brandonjturner.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://brandonjturner.com',
-    image: porfolioImage5,
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
+    image: portfolioImage4,
   },
 ];
 
 
 export const education: TimelineItem[] = [
   {
-    date: 'date',
-    location: 'location',
-    title: 'title',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'November 2018',
+    location: 'Full Stack Software Engineer Certificate',
+    title: 'UCLA Extension',
+    content: <p>Keeping myself current on the latest full stack technologies which were covered extensively at 
+    UCLA Extension</p>, },
+  {
+    date: 'June 2008',
+    location: 'Completed general education',
+    title: 'Moorpark College',
+    content: <p>Great experience of higher education from Moorpark Community College.</p>,
   },
   {
-    date: 'date',
-    location: 'location',
-    title: 'title',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2006',
+    location: 'Diploma',
+    title: 'Westlake High School',
+    content: <p>Attended the WIT (Westlake Information Technology) Academy integrated with the high school. 
+    The program introduced us to front end development and visual basic in 10th grade. I also 
+    learned about video editing, graphic design and Microsoft Access.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'date',
-    location: 'location',
-    title: 'title',
+    date: 'January 2015 to August 2022',
+    location: 'MAXON Computer Software',
+    title: 'Sofware Engineer',
     content: (
       <p>
-        description
+<ul>
+  <li>•Used PHP to manage student database for the Americas</li>
+  <li>•Worked with QA troubleshooting and escalating software bugs</li>
+  <li>•Maintained technical documentation for latest policies and procedures</li>
+  <li>•Worked closely with the Development team, Sales team, Technical support, and 
+Management teams to ensure technical operations were accurate to maintain 
+application efficiency.</li>
+<li>•Worked closely with the Development team, Sales team, Technical support, and 
+Management teams to ensure technical operations were accurate to maintain 
+application efficiency.</li>
+<li>•Tackled day to day tasks such as Account Management, Process Monitoring, Data 
+Collection, and Troubleshooting/coordinating Network Connections.</li>
+<li>•Educated teachers and professors on methods of teaching Cinema 4D</li>
+<li>•Managed education material, license servers and latest versions for schools in 
+North/South America support for deploying Cinema4D in any environment</li>
+<li>•Manage render servers on AWS, multiple cloud services and private configurations</li>
+</ul>
       </p>
     ),
   },
   {
-    date: 'date',
-    location: 'location',
-    title: 'title',
+    date: 'November 2018 to Current',
+    location: 'Code for America: Hack 4 LA(non-profit)',
+    title: 'Software Engineer',
     content: (
-      <p>
-        description
+      <p><ul>
+        <li>•Working with people from all sides of the tech industry to help bring social services and 
+information to the citizens of Los Angeles</li>
+<li>•Utilizing the latest technologies to update HackforLA.com to the industry standard </li>
+<li>•Assists in product management and work flow optimization and overall efficiency</li>
+</ul>
+      </p>
+    ),
+  },
+  {
+    date: 'June 2011 to December 2014',
+    location: 'Jonestrading',
+    title: 'Systems Engineer',
+    content: (
+      <p><ul>
+        <li>•Managed 3 IT Support Employees</li>
+  <li>•Manage communication and prioritization of projects with multiple departments with 
+high dollar value</li>
+  <li>•Liaison to Software Database Employees</li>
+  <li>•Create custom computer software setup for each Wall Street Trader for their individual 
+needs</li>   <li>•Server and Network support and backups, Exchange Server (Email), phone system 
+support</li>
+   <li>•Deploy Software Application and Operating System updates to over 200 computers and 
+300 IP Phones</li>
+   <li>•Real-time tech support of problems across multiple complex trading software systems 
+and platforms for very demanding Wall Street Traders</li>
+</ul>
+      </p>
+    ),
+  },
+  {
+    date: 'March 2011 to June 2011',
+    location: 'Sage Publishing',
+    title: 'Front End Developer',
+    content: (
+      <p><ul>
+        <li>•Website Development and final testing before all website updates</li>
+        <li>•Designed frame work for templates to be used internally</li>
+        <li>•Front end specialist creating the next generation of Sage website</li>
+      
+</ul>
+      </p>
+    ),
+  },
+  {
+    date: 'January 2002 to Current',
+    location: 'TurnerWebDev',
+    title: 'Software Engineer',
+    content: (
+      <p><ul>
+<li>•Consulting for computer Hardware, Software and Network maintenance</li>
+<li>•Full Stack Web Development, web design, video design, directing and editing and 
+photography with great feedback from customers</li>
+<li>•Created MySQL database to track a companies VanPool service for its employees</li>
+<li>•Created a front end for the MySQL database displaying the data on a secure reactive 
+front end</li>
+</ul>
+      </p>
+    ),
+  },
+  {
+    date: 'January 2002 to December 2007',
+    location: 'WV Communications',
+    title: 'Software Support/Soldering',
+    content: (
+      <p><ul>
+        <li>•Computer hardware, software and network systems. Circuit board production, Accounts 
+Payable, Receiving and payroll. Microsoft Word, Excel, Access and light scripting</li>
+</ul>
       </p>
     ),
   },
@@ -257,21 +301,7 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    {
-      name: 'name',
-      text: 'endorsment',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'name',
-      text: 'endorsment',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'name',
-      text: 'endorsment',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
+    
   ],
 };
 

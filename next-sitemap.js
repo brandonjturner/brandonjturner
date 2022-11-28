@@ -1,6 +1,6 @@
 
 module.exports = {
-  siteUrl: 'reactresume.com',
+  siteUrl: 'brandonjturner.com',
   exclude: ['/404*', '/500*'],
   transform: async (config, path) => {
     return {
