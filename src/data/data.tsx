@@ -150,8 +150,8 @@ export const skills: SkillGroup[] = [
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
+    title: 'www.brandonjturner.com',
+    description: 'Built with React, Next.js and TailwindCss',
     url: 'https://brandonjturner.com',
     image: porfolioImage1,
   },
