@@ -198,8 +198,7 @@ export const experience: TimelineItem[] = [
     title: 'title',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        description
       </p>
     ),
   },
@@ -209,8 +208,7 @@ export const experience: TimelineItem[] = [
     title: 'title',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        description
       </p>
     ),
   },
