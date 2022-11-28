@@ -83,16 +83,7 @@ export interface TimelineItem {
 }
 
 
-export interface TestimonialSection {
-  imageSrc?: string | StaticImageData;
-  testimonials: Testimonial[];
-}
 
-export interface Testimonial {
-  image?: string;
-  name: string;
-  text: string;
-}
 
 
 export interface ContactSection {

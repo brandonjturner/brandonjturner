@@ -15,7 +15,6 @@ import portfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import portfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -25,7 +24,6 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -44,7 +42,6 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -298,12 +295,7 @@ Payable, Receiving and payroll. Microsoft Word, Excel, Access and light scriptin
   },
 ];
 
-export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [
-    
-  ],
-};
+
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
