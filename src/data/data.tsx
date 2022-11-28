@@ -2,7 +2,6 @@ import {
   AcademicCapIcon,
   CalendarIcon,
   DownloadIcon,
-  FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
   SparklesIcon,
@@ -96,33 +95,15 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Southern California', Icon: MapIcon},
+    {label: 'Age', text: '34s', Icon: CalendarIcon},
+    {label: 'Interests', text: 'Volleyball, Climbing, Backpacking', Icon: SparklesIcon},
+    {label: 'Study', text: 'Moorpark College/UCLA Extension', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Looking for new projects to take on.', Icon: OfficeBuildingIcon},
   ],
 };
 
 export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
   {
     name: 'Frontend development',
     skills: [
