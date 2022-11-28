@@ -26,6 +26,7 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
+  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -43,7 +44,8 @@ export const SectionId = {
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
-  Stats: 'stats'
+  Stats: 'stats',
+  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -215,6 +217,21 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
+    {
+      name: 'name',
+      text: 'endorsment',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    },
+    {
+      name: 'name',
+      text: 'endorsment',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    },
+    {
+      name: 'name',
+      text: 'endorsment',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    },
   ],
 };
 
