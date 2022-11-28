@@ -26,7 +26,6 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -44,8 +43,7 @@ export const SectionId = {
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
-  Stats: 'stats',
-  Testimonials: 'testimonials',
+  Stats: 'stats'
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];

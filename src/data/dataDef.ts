@@ -107,8 +107,6 @@ export const ContactType = {
   Location: 'Location',
   Github: 'Github',
   LinkedIn: 'LinkedIn',
-  Facebook: 'Facebook',
-  Twitter: 'Twitter',
   Instagram: 'Instagram',
 } as const;
 
