@@ -67,7 +67,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../',
+      href: './assets/brandonturnerresume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
