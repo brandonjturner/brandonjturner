@@ -26,7 +26,6 @@ const Testimonials: FC = memo(() => {
     return typeof imageSrc === 'string' ? imageSrc : imageSrc.src;
   }, [imageSrc]);
 
-  // Mobile iOS doesn't allow background-fixed elements
   useEffect(() => {
     setParallaxEnabled(!(isMobile && isApple));
   }, []);
