@@ -40,17 +40,13 @@ import {
   TimelineItem,
 } from './dataDef';
 
-/**
- * Page meta data
- */
+
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'brandonjturner.com',
+  description: "My personal portfolio website.",
 };
 
-/**
- * Section definition
- */
+
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
@@ -64,27 +60,24 @@ export const SectionId = {
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
 
-/**
- * Hero section
- */
 export const heroData: Hero = {
   imageSrc: heroImage,
   name: `I'm Brandon J Turner.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Southern California based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currrently looking for  <strong className="text-stone-100">New Projects</strong> to dive into.
+        I'm a Southern California based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currrently looking for <strong className="text-stone-100">new projects</strong> to dive into.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can see me playing <strong className="text-stone-100">volleyball</strong>,
+        on a wall somewhere <strong className="text-stone-100">rock climbing</strong>, or in the mountains {' '}
+        <strong className="text-stone-100">backpacking</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '../',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -97,9 +90,6 @@ export const heroData: Hero = {
   ],
 };
 
-/**
- * About section
- */
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
@@ -115,9 +105,6 @@ export const aboutData: About = {
   ],
 };
 
-/**
- * Skills section
- */
 export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
@@ -189,9 +176,6 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-/**
- * Portfolio section
- */
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
@@ -261,9 +245,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-/**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
- */
+
 export const education: TimelineItem[] = [
   {
     date: 'April 2007',
@@ -304,9 +286,6 @@ export const experience: TimelineItem[] = [
   },
 ];
 
-/**
- * Testimonial section
- */
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
@@ -359,9 +338,6 @@ export const contact: ContactSection = {
   ],
 };
 
-/**
- * Social items
- */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
