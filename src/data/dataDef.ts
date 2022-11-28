@@ -17,9 +17,6 @@ export interface HomepageMeta {
   twitterImageUrl?: string;
 }
 
-/**
- * Hero section
- */
 export interface Hero {
   imageSrc: string;
   name: string;
@@ -34,9 +31,7 @@ interface HeroActionItem {
   Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 }
 
-/**
- * About section
- */
+
 export interface About {
   profileImageSrc?: string;
   description: string;
@@ -49,9 +44,7 @@ export interface AboutItem {
   Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 }
 
-/**
- * Stat section
- */
+
 export interface Stat {
   title: string;
   value: number;
@@ -73,9 +66,7 @@ export interface SkillGroup {
   skills: Skill[];
 }
 
-/**
- * Portfolio section
- */
+
 export interface PortfolioItem {
   title: string;
   description: string;
@@ -83,9 +74,7 @@ export interface PortfolioItem {
   image: string | StaticImageData;
 }
 
-/**
- * Resume section
- */
+
 export interface TimelineItem {
   date: string;
   location: string;
@@ -93,9 +82,7 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
-/**
- * Testimonial section
- */
+
 export interface TestimonialSection {
   imageSrc?: string | StaticImageData;
   testimonials: Testimonial[];
@@ -107,9 +94,7 @@ export interface Testimonial {
   text: string;
 }
 
-/**
- * Contact section
- */
+
 export interface ContactSection {
   headerText?: string;
   description: string;
@@ -140,9 +125,7 @@ export interface ContactValue {
   srLabel: string;
 }
 
-/**
- * Social items
- */
+
 export interface Social {
   label: string;
   Icon: FC<IconProps>;
