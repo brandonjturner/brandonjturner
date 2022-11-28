@@ -155,15 +155,15 @@ export const portfolioItems: PortfolioItem[] = [
     image: portfolioImage2,
   },
   {
-    title: 'Project 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://brandonjturner.com',
+    title: 'Hack 4 LA',
+    description: 'Code for America: Hack 4 LA website',
+    url: 'https://github.com/brandonjturner/hack4la',
     image: portfolioImage3,
   },
   {
-    title: 'Vanpool',
-    description: 'Give a short description of your project here.',
-    url: 'https://brandonjturner.com',
+    title: 'Vanride',
+    description: 'Created a Vanpool signup website that could generate tax refund milage receipts as well for a refund.',
+    url: 'https://github.com/brandonjturner/project2',
     image: portfolioImage4,
   },
 ];
